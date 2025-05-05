@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="show-app-grid-button">
+	
+	<enum id="org.gnome.shell.extensions.show-app-grid-button.button-position">
+		<value value="0" nick="LEFT"/>
+		<value value="1" nick="RIGHT"/>
+	</enum>
+  
+	<schema path="/org/gnome/shell/extensions/show-app-grid-button/" id="org.gnome.shell.extensions.show-app-grid-button">
+		
+		<key name="show-apps-button-visibility" type="b">
+			<default>true</default>
+			<summary>Keep Show Apps on the dock </summary>
+			<description>Keep the Show Apps button on the dock.</description>
+		</key>
+	  
+		<key name="button-position" enum="org.gnome.shell.extensions.show-app-grid-button.button-position">
+			<default>'LEFT'</default>
+			<summary>Position on panel.</summary>
+			<description>Set the position of the extension on the panel.
+				Possible values are: Left and Right.</description>
+		</key>
+	  
+	</schema>
+	
+</schemalist>
