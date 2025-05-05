@@ -1,0 +1,15 @@
+{
+  "description": "Add a button on the panel that opens the app-grid.",
+  "extension-id": "show-app-grid-button",
+  "gettext-domain": "show-app-grid-button",
+  "localedir": "/usr/share/locale",
+  "name": "Show App Grid Button",
+  "settings-schema": "org.gnome.shell.extensions.show-app-grid-button",
+  "shell-version": [
+    "47",
+    "48"
+  ],
+  "url": "https://github.com/amivaleo/show-app-grid-button",
+  "uuid": "show-app-grid-button@amivaleo",
+  "version": 1
+}
