@@ -1,4 +1,4 @@
-# Show-App-Grid-Button
+# Show App Grid Button
 
 Add a Show Apps button on the top-left of the panel
 
